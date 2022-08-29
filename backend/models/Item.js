@@ -49,7 +49,7 @@ ItemSchema.methods.toJSONFor = function(user) {
     slug: this.slug,
     title: this.title,
     description: this.description,
-    image: this.image,
+    image: this.image || 'https://image.shutterstock.com/image-vector/placeholder-icon-vector-isolated-on-260nw-1144039568.jpg',
     createdAt: this.createdAt,
     updatedAt: this.updatedAt,
     tagList: this.tagList,
