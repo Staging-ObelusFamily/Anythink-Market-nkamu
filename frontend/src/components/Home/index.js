@@ -17,6 +17,7 @@ const mapStateToProps = (state) => ({
   ...state.home,
   appName: state.common.appName,
   token: state.common.token,
+  title: state.home.title,
 });
 
 const mapDispatchToProps = (dispatch) => ({
