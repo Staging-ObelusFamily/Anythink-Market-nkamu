@@ -1,7 +1,8 @@
 import React from "react";
 import logo from "../../imgs/logo.png";
+import agent from "../../agent";
 
-const Banner = () => {
+const Banner = (props) => {
   const handleSearch = (title) => {
     if (title.length < 3) {
       title = "";
