@@ -13,7 +13,7 @@ const Banner = (props) => {
       agent.Items.byTitle(title)
     );
   };
-  
+
   return (
     <div className="banner text-white">
       <div className="container p-4 text-center">
